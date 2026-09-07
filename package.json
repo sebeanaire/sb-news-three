@@ -1,0 +1,13 @@
+{
+  "name": "sb-news-three",
+  "version": "1.0.0",
+  "description": "AI / 부동산 / 금융 / 콘텐츠 뉴스를 이미지 카드로 모아 보여주는 정적 뉴스 사이트",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "collect": "node scripts/collect.mjs"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
